@@ -6,8 +6,212 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.app{
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/dust_scratches.png") fixed, repeat;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.nav{
+  border-bottom: 2px solid rgba(0,0,0);
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.container-reg{
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.about{
+  margin: auto;
+  padding:10px;
+  width: 100%;
+}
+
+h2 {
+  padding:0px;
+  margin:0px;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+p {
+  padding:0px;
+  margin-top:0px;
+}
+
+/* ! Footer */
+.footer{
+  border-top: 2px solid rgba(0,0,0);
+  width: 100%;
+  background-color: white;
+}
+
+.footer-content{
+  display: flex;
+  padding-top: 5px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.about{
+  background-color: black;
+}
+
+.center{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.invert{
+  filter: invert();
+}
+
+.tech{
+  filter: invert();
+}
+
+/* ! Timeline Start */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  left: 25px;
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+}
+
+/* Container around timeline content */
+.contain {
+  width: 100%;
+  padding-left: 40px;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Arrows */
+.contain::before {
+  left: -10px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* The circles on the timeline */
+.contain::after {
+  content: '';
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 8px;
+  width: 10px;
+  height: 10px;
+  background-color: #8f8f8f;
+  border-radius: 50%;
+  top: 20px;
+  z-index: 1;
+}
+
+/* The actual content */
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Make sure all circles are at the same spot */
+.right::after {
+  left: 15px;
+}
+
+/* Make all right containers behave like the left ones */
+.right {
+  left: 0%;
+}
+
+/* ! Projects Start */
+.projects h3 {
+  color: white;
+  text-align: center;
+}
+
+.projects p {
+  color: white;
+}
+
+.row{
+  margin: 8px -16px;
+}
+
+.row, 
+.row > .column{
+  padding: 8px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.projects{
+  background-color: black;
+  padding: 10px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* ! Projects End */
