@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App" style={{backgroundImage:`url(${bkgnd})`}}>
       <div className="nav">
-        <Header><h1><strong>Karter Livingston</strong></h1>
+        <Header><h1 style={{fontSize:"40px"}}><strong>Karter Livingston</strong></h1>
         <p><small><em>Software Developer | Artist | Perpetual Student</em></small></p>
         </Header>
       </div>

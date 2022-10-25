@@ -30,24 +30,70 @@ export default class About extends Component{
               The best way to describe my career is a shotgun blast: I've tried numerous seemingly unconnected things. 
               Most would see that as a bad thing but I am all about reducing, reusing, and recycling.
             </p>
+            <br></br>
             <div className="container-reg">
                 <div className="timeline">
                     <div className="contain right">
                         <div className="content">
-                        <h2>2017</h2>
-                        <p>Lorem ipsum..</p>
+                        <h2>June 2022 - October 2022</h2>
+                        <p><em>Software Engineering bootcamp</em></p>
+                        <p><small>Learned new coding languages and new processes for how to approach project creation.</small></p>
                         </div>
                     </div>
                     <div className="contain right">
                         <div className="content">
-                        <h2>2016</h2>
-                        <p>Lorem ipsum..</p>
+                        <h2>September 2013 - October 2022</h2>
+                        <p><em>Online Virtual Assistant/Lead Graphic Designer</em></p>
+                        <p><small>Learned _________</small></p>
                         </div>
                     </div>
                     <div className="contain right">
                         <div className="content">
-                        <h2>2016</h2>
-                        <p>Lorem ipsum..</p>
+                        <h2>June 2019 - May 2022</h2>
+                        <p><em>Hotel HR & Accounting Coordinator</em></p>
+                        <p><small>Learned _________</small></p>
+                        </div>
+                    </div>
+                    <div className="contain right">
+                        <div className="content">
+                        <h2>August 2018 - June 2019</h2>
+                        <p><em>Hotel File Clerk</em></p>
+                        <p><small>Learned _________</small></p>
+                        </div>
+                    </div>
+                    <div className="contain right">
+                        <div className="content">
+                        <h2>June 2017 - September 2018</h2>
+                        <p><em>Computer Science & Multimedia Arts classes</em></p>
+                        <p><small>Learned _________</small></p>
+                        </div>
+                    </div>
+                    <div className="contain right">
+                        <div className="content">
+                        <h2>June 2014 - June 2016</h2>
+                        <p><em>Fashion Associate's Degree</em></p>
+                        <p><small>Learned _________</small></p>
+                        </div>
+                    </div>
+                    <div className="contain right">
+                        <div className="content">
+                        <h2>October 2014 - November 2014</h2>
+                        <p><em>Fashion Intern</em></p>
+                        <p><small>Learned _________</small></p>
+                        </div>
+                    </div>
+                    <div className="contain right">
+                        <div className="content">
+                        <h2>June 2014 - November 2014</h2>
+                        <p><em>Educational Video site Intern</em></p>
+                        <p><small>Learned _________</small></p>
+                        </div>
+                    </div>
+                    <div className="contain right">
+                        <div className="content">
+                        <h2>September 2012 - June 2014</h2>
+                        <p><em>Substitute Recreation Leader</em></p>
+                        <p><small>Learned _________</small></p>
                         </div>
                     </div>
                 </div>
@@ -61,9 +107,9 @@ export default class About extends Component{
             <p>Below are some of the things that I already know, but I am quick to learn and would love to learn more!</p>
             <br></br>
             <div className="center">
-              <img style={{height:"50px"}} className="tech" src={javascript} alt="Javascript"></img>
-              <img style={{height:"50px"}} className="tech" src={react} alt="React"></img>
-              <img style={{height:"50px"}} className="tech" src={rails} alt="Ruby on Rails"></img>
+              <img style={{height:"70px"}} className="tech" src={javascript} alt="Javascript"></img>
+              <img style={{height:"70px"}} className="tech" src={react} alt="React"></img>
+              <img style={{height:"100px"}} className="tech" src={rails} alt="Ruby on Rails"></img>
             </div>
             <br></br>
             <p>I am currently looking into refreshing my memory of Java and C++, but after that I want to look into learning Python.</p>
