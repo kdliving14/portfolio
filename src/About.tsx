@@ -35,63 +35,71 @@ export default class About extends Component{
                 <div className="timeline">
                     <div className="contain right">
                         <div className="content">
-                        <h2>June 2022 - October 2022</h2>
+                        <h3>June 2022 - October 2022</h3>
                         <p><em>Software Engineering bootcamp</em></p>
                         <p><small>Learned new coding languages and new processes for how to approach project creation.</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>September 2013 - October 2022</h2>
+                        <h3>September 2013 - October 2022</h3>
                         <p><em>Online Virtual Assistant/Lead Graphic Designer</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>June 2019 - May 2022</h2>
+                        <h3>June 2019 - May 2022</h3>
                         <p><em>Hotel HR & Accounting Coordinator</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>August 2018 - June 2019</h2>
+                        <h3>August 2018 - June 2019</h3>
                         <p><em>Hotel File Clerk</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>June 2017 - September 2018</h2>
+                        <h3>June 2017 - September 2018</h3>
                         <p><em>Computer Science & Multimedia Arts classes</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>June 2014 - June 2016</h2>
+                        <h3>June 2014 - June 2016</h3>
                         <p><em>Fashion Associate's Degree</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>October 2014 - November 2014</h2>
+                        <h3>October 2014 - November 2014</h3>
                         <p><em>Fashion Intern</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>June 2014 - November 2014</h2>
+                        <h3>June 2014 - November 2014</h3>
                         <p><em>Educational Video site Intern</em></p>
                         <p><small>Learned _________</small></p>
                         </div>
                     </div>
+                    <Divider/>
                     <div className="contain right">
                         <div className="content">
-                        <h2>September 2012 - June 2014</h2>
+                        <h3>September 2012 - June 2014</h3>
                         <p><em>Substitute Recreation Leader</em></p>
                         <p><small>Learned _________</small></p>
                         </div>

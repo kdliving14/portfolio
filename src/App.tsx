@@ -2,16 +2,18 @@ import Linkedin from "./images/linkedin.svg"
 import Github from "./images/github.svg"
 import Devto from "./images/devdotto.svg"
 
-import bkgnd from "./images/background.jpg"
+// import bkgnd from "./images/background.jpg"
 
 import About from "./About"
 import Projects from "./Projects"
 
 import {Container, Header, Icon } from "semantic-ui-react"
 
+// style={{backgroundImage:`url(${bkgnd})`}}
+
 function App() {
   return (
-    <div className="App" style={{backgroundImage:`url(${bkgnd})`}}>
+    <div className="app">
       <div className="nav">
         <Header><h1 style={{fontSize:"40px"}}><strong>Karter Livingston</strong></h1>
         <p><small><em>Software Developer | Artist | Perpetual Student</em></small></p>
