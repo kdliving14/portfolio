@@ -97,7 +97,7 @@ export default class About extends Component{
                         <div className="content">
                           <h3>June 2014 - June 2016</h3>
                           <p><em>Fashion Associate's Degree</em></p>
-                          <p><small>Learned to think outside the box and how to visually disasemble and reassemble items. </small></p>
+                          <p><small>Learned to think outside the box and how to visually disassemble and reassemble items. </small></p>
                         </div>
                     </div>
                     <Divider/>
@@ -129,7 +129,7 @@ export default class About extends Component{
                         <div className="content">
                           <h3>September 2012 - June 2014</h3>
                           <p><em>Substitute Recreation Leader</em></p>
-                          <p><small>Learned how to create enjoyable and educational content and responsibility (graduated highschool in 2014)</small></p>
+                          <p><small>Learned how to create enjoyable and educational content and responsibility (graduated high school in 2014)</small></p>
                         </div>
                     </div>
                 </div>
