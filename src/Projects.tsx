@@ -1,7 +1,7 @@
 import fff from "./images/FindFundFoster.png"
 import hakumele from "./images/HakuMele.png"
 import puppair from "./images/PuppyPairing.png"
-import adventure from "./images/adventure.png"
+// import adventure from "./images/adventure.png"
 import cheetcode from "./images/cheetcode.png"
 
 import {Button, Divider} from "semantic-ui-react"
