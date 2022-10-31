@@ -41,7 +41,7 @@ function Projects(){
                 </div>
             </div>
 
-            <div className="column">
+            {/* <div className="column">
                 <div className="projects">
                     <img src={adventure} alt="Adventure" className="center" style={{width:"50%"}}/>
                     <Divider />
@@ -55,7 +55,7 @@ function Projects(){
                             Backend</Button>
                     </Button.Group>
                 </div>
-            </div>
+            </div> */}
 
             <div className="column">
                 <div className="projects">
