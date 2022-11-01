@@ -1,7 +1,7 @@
 import fff from "./images/FindFundFoster.png"
 import hakumele from "./images/HakuMele.png"
 import puppair from "./images/PuppyPairing.png"
-// import adventure from "./images/adventure.png"
+import adventure from "./images/adventure.png"
 import cheetcode from "./images/cheetcode.png"
 
 import {Button, Divider} from "semantic-ui-react"
@@ -28,6 +28,22 @@ function Projects(){
 
             <div className="column">
                 <div className="projects">
+                    <img src={adventure} alt="Adventure" className="center" style={{width:"50%"}}/>
+                    <Divider />
+                    <h3>Adventure</h3>
+                    <p>A choose your own adventure web application. Still in progress! If you want to pitch in, contact me via Github!</p>
+                    <br></br>
+                    <Button.Group fluid color="black">
+                        <Button compact target="_blank" rel="noreferrer" href="https://storyadventure.herokuapp.com/">
+                            Deployed</Button>
+                        <Button compact target="_blank" rel="noreferrer" href="https://github.com/kdliving14/adventure">
+                            Github</Button>
+                    </Button.Group>
+                </div>
+            </div>
+
+            <div className="column">
+                <div className="projects">
                     <img src={fff} alt="Find Fund Foster" className="center" style={{width:"40%"}}/>
                     <Divider />
                     <p>Find forever homes for pets and fund animal shelters per animal by digitally maintaining a pet via life stats, such as hunger/thirst/fun/hygiene/etc.</p>
@@ -40,22 +56,6 @@ function Projects(){
                     </Button.Group>
                 </div>
             </div>
-
-            {/* <div className="column">
-                <div className="projects">
-                    <img src={adventure} alt="Adventure" className="center" style={{width:"50%"}}/>
-                    <Divider />
-                    <h3>Adventure</h3>
-                    <p>A choose your own adventure web application. Still in progress! If you want to pitch in, contact me via Github!</p>
-                    <br></br>
-                    <Button.Group fluid color="black">
-                        <Button compact target="_blank" rel="noreferrer" href="https://github.com/kdliving14/story-front">
-                            Frontend</Button>
-                        <Button compact target="_blank" rel="noreferrer" href="https://github.com/kdliving14/story-back">
-                            Backend</Button>
-                    </Button.Group>
-                </div>
-            </div> */}
 
             <div className="column">
                 <div className="projects">
